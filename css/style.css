@@ -2,10 +2,10 @@
 
 :root {
   --ink: #17243b;
-  --muted: #64718a;
+  --muted: #030303;
   --blue: #3157d5;
   --blue-dark: #203da5;
-  --mint: #dff5ed;
+  --mint: #568fcf;
   --paper: #ffffff;
   --soft: #f4f7fc;
   --line: #e5eaf2;
@@ -68,7 +68,7 @@ a {
 }
 
 .eyebrow {
-  color: var(--blue);
+  color: #0000;
   font-size: .76rem;
   font-weight: 700;
   letter-spacing: .16em;
@@ -79,7 +79,7 @@ a {
   top: 0;
   z-index: 20;
   border-bottom: 1px solid var(--line);
-  background: rgba(255, 255, 255, .94);
+  background: rgba(116, 101, 252, 0.94);
   backdrop-filter: blur(12px);
 }
 
@@ -106,7 +106,7 @@ a {
   height: 38px;
   place-items: center;
   border-radius: 12px;
-  color: white;
+  color: rgb(252, 252, 252);
   background: var(--blue);
   font-weight: 800;
 }
@@ -134,7 +134,7 @@ a {
   border: 1px solid var(--line);
   border-radius: 10px;
   color: var(--ink);
-  background: white;
+  background: rgb(5, 5, 5);
   font-size: 1.2rem;
   cursor: pointer;
 }
@@ -143,7 +143,7 @@ a {
   position: relative;
   overflow: hidden;
   padding: 112px 0 120px;
-  background: linear-gradient(115deg, #f4f7ff 0%, #edf3ff 58%, #e2f5ef 100%);
+  background: linear-gradient(115deg, #fff8f8 0%, #edf3ff 58%, #e2f5ef 100%);
 }
 
 .hero-content {
@@ -214,7 +214,7 @@ a {
 }
 
 .button-primary {
-  color: white;
+  color: rgb(0, 0, 0);
   background: var(--blue);
 }
 
@@ -224,7 +224,7 @@ a {
 
 .button-light {
   color: var(--blue);
-  background: white;
+  background: rgb(0, 0, 0);
 }
 
 .section {
@@ -324,7 +324,7 @@ a {
 .cta-panel h2 {
   max-width: 650px;
   margin-bottom: 0;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .cta-panel .eyebrow {
